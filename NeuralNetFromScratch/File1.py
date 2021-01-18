@@ -57,5 +57,4 @@ if __name__ == "__main__":
     for i in range(1500):
         nn.feedforward()
         nn.backprop()
-
     print(nn.output)
